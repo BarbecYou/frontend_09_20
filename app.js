@@ -15,7 +15,9 @@ function szamolas() {
     document.getElementById("felhasznaloErtek").innerHTML = bmiErtek;
 
     let active = document.getElementsByClassName("activeRow");
-    active[0].className -= "activeRow";
+    if (active.length > 0){
+        active[0].className -= "activeRow";
+    }
 
     const x = bmi;
     switch (true) {
@@ -38,4 +40,6 @@ function szamolas() {
             document.getElementById("harmadFoku").className += " activeRow";
             break;
     }
+    let idealisTomeg = ;
+    document.getElementById("idealisTomegText").textContent = ;
 }
