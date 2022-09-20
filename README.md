@@ -1,4 +1,6 @@
-# [Név]
+# Füredi Dániel
+
+# HTML page: https://barbecyou.github.io/frontend_09_20/
 
 ## Hogyan kezdj neki?
 
