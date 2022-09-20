@@ -1,12 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
 </head>
+
 <body>
-    WORKING....
+
+    <section class="szamitas">
+        <div class="szamitas-flex-container">
+            <p>Írja be cm-ben számított testmagasságát (cipő nélkül mérve): </p>
+            <input type="number" name="magassagInput" id="magassag"> cm
+        </div>
+        <div class="szamitas-flex-container">
+            <div class="flex-line-break"></div>
+            <p>Írja be kg-ban számított testsúlyát (cipő nélkül mérve): </p>
+            <input type="number" name="testsulyInput" id="testsuly"> kg
+        </div>
+        <input type="button" value="Számítás" id="submitButton">
+
+    </section>
+
+    <section class="felhasznaloErtek">
+        <p id="felhasznaloErtek">Az ön BMI értéke: </p>
+
+    
+        <div class="table-flex-container">
+            <table>
+                <tr id="sovany">
+                    <td>18,5 vagy kevesebb</td>
+                    <td>SOVÁNY</td>
+                </tr>
+                <tr id="normal">
+                    <td>18,5 - 24,9</td>
+                    <td>NORMÁL</td>
+                </tr>
+                <tr id="tulsuly">
+                    <td>25 - 29,9</td>
+                    <td>TÚLSÚLY</td>
+                </tr>
+                <tr id="elsoFoku">
+                    <td>30 - 34,9</td>
+                    <td>I. FOKÚ ELHÍZÁS</td>
+                </tr>
+                <tr id="masodFoku">
+                    <td>35 - 39,9</td>
+                    <td>II. FOKÚ ELHÍZÁS</td>
+                </tr>
+                <tr id="harmadFoku">
+                    <td>40 vagy több</td>
+                    <td>III. FOKÚ ELHÍZÁS</td>
+                </tr>
+            </table>
+        </div>
+    </section>
+    <section class="idealis">
+
+    </section>
 </body>
+
 </html>
