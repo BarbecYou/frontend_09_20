@@ -40,6 +40,6 @@ function szamolas() {
             document.getElementById("harmadFoku").className += " activeRow";
             break;
     }
-    let idealisTomeg = ;
-    document.getElementById("idealisTomegText").textContent = ;
+    // let idealisTomeg = ;
+    // document.getElementById("idealisTomegText").textContent = ;
 }
